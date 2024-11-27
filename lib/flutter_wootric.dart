@@ -6,7 +6,7 @@ class FlutterWootric {
 
   /// Configure Wootric with your individual [clientId] and
   /// [accountToken].
-  static configure({@required String clientId, @required String accountToken}) {
+  static configure({required String clientId, required String accountToken}) {
     assert(clientId != null);
     assert(accountToken != null);
     
